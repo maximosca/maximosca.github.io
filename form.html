@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="formstyle.css">
+    
+</head>
+<body>
+    <div class="contenedor-form">
+        <div class="toggle">
+            <span>Crear Cuenta</span>
+        </div>
+        <div class="formulario"><!--formulario de inicio de sesion-->
+            <h2>Iniciar Sesion</h2>
+            <form action="#">
+                <input type="text" placeholder="usuario" required>
+                <input type="password" placeholder="contraseña" required>
+                <input type="submit" value="Iniciar Sesion">
+            </form>
+        </div>
+
+        <div class="formulario"><!--formulario para crear cuenta-->
+            <h2>Crear Cuenta</h2>
+            <form action="#">
+                <input type="text" placeholder="usuario" required>
+                <input type="password" placeholder="contraseña" required>
+                <input type="email" placeholder="Correo Electronico" required>
+                <input type="tel" placeholder="Telefono" required>
+                <input type="submit" value="Registrarme">
+            </form>
+        </div>
+
+        <div class="reset-password">
+            <a href="#">Olvide mi contraseña</a>
+        </div>
+        
+    </div>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="formscript.js"></script>
+</body>
+</html>
